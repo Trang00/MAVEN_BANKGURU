@@ -1,0 +1,347 @@
+2019-07-01 15:52:01,974 INFO  com.bankguru.account.RegisterLogin_Global - ============== START: TC_01_RegisterToSystem ============== 
+2019-07-01 15:52:01,980 INFO  com.bankguru.account.RegisterLogin_Global - TC_01 - Step 01: Click to hete link
+2019-07-01 15:52:03,357 INFO  com.bankguru.account.RegisterLogin_Global - TC_01 - Step 02: Input data to Email textbox
+2019-07-01 15:52:05,905 INFO  com.bankguru.account.RegisterLogin_Global - TC_01 - Step 03: Click to Submit button
+2019-07-01 15:52:08,276 INFO  com.bankguru.account.RegisterLogin_Global - TC_01 - Step 04: Get User/ Pass information
+2019-07-01 15:52:09,563 INFO  com.bankguru.account.RegisterLogin_Global - USER_ID:  mngr206274
+2019-07-01 15:52:10,421 INFO  com.bankguru.account.RegisterLogin_Global - PASSWORD:  jubysUs
+2019-07-01 15:52:10,422 INFO  com.bankguru.account.RegisterLogin_Global - ============== AND: TC_01_RegisterToSystem ============== 
+2019-07-01 15:52:12,165 INFO  com.bankguru.account.RegisterLogin_Global - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:52:23,213 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== START:  TC_01_LoginWithEmailInvalid============== 
+2019-07-01 15:52:23,214 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 01: Click to hete link
+2019-07-01 15:52:33,277 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 02: Input data to Email textbox
+2019-07-01 15:52:34,139 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 03: Click to Submit button
+2019-07-01 15:52:35,069 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 04: verify Msg
+2019-07-01 15:52:35,662 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Actual=Email ID is not valid
+2019-07-01 15:52:35,662 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Expected=Email ID is not valid
+2019-07-01 15:52:35,663 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Compare value=true
+2019-07-01 15:52:35,664 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ===PASSED===
+2019-07-01 15:52:35,687 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== AND:  TC_01_LoginWithEmailInvalid============== 
+2019-07-01 15:52:36,218 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:52:45,483 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== START:  TC_02_LoginWithEmailValid============== 
+2019-07-01 15:52:45,483 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 01: Click to hete link
+2019-07-01 15:52:47,939 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 02: Input data to Email textbox
+2019-07-01 15:52:48,393 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 03: Click to Submit button
+2019-07-01 15:52:50,400 INFO  com.bankguru.login.Login_01_ValidateLoginForm - TC_01 - Step 04: Get User/ Pass information
+2019-07-01 15:52:51,630 INFO  com.bankguru.login.Login_01_ValidateLoginForm - USER_ID:  mngr206275
+2019-07-01 15:52:52,260 INFO  com.bankguru.login.Login_01_ValidateLoginForm - PASSWORD:  pEmYgAn
+2019-07-01 15:52:52,260 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== AND:  TC_02_LoginWithEmailValid============== 
+2019-07-01 15:52:52,998 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:53:01,489 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== START:  TC_03_LoginWithPasswordLessThan6Chars============== 
+2019-07-01 15:53:01,490 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 01: Input data to UserID
+2019-07-01 15:53:01,717 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 02: Input data to Password
+2019-07-01 15:53:02,083 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 03: Click to Submit button
+2019-07-01 15:53:03,646 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 04:Verify and Accep alert 
+2019-07-01 15:53:04,736 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Actual=User or Password is not valid
+2019-07-01 15:53:04,737 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Expected=User or Password is not valid
+2019-07-01 15:53:04,737 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Compare value=true
+2019-07-01 15:53:04,737 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ===PASSED===
+2019-07-01 15:53:04,784 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== AND:  TC_03_LoginWithPasswordLessThan6Chars============== 
+2019-07-01 15:53:06,661 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:53:15,316 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== START:  TC_04_LoginWithPaswordIncorrect============== 
+2019-07-01 15:53:15,316 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 01: Input data to UserID
+2019-07-01 15:53:15,473 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 02: Input data to Password
+2019-07-01 15:53:15,602 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 03: Click to Submit button
+2019-07-01 15:53:16,917 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 04:Verify and Accep alert 
+2019-07-01 15:53:17,759 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Actual=User or Password is not valid
+2019-07-01 15:53:17,760 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Expected=User or Password is not valid
+2019-07-01 15:53:17,760 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Compare value=true
+2019-07-01 15:53:17,761 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ===PASSED===
+2019-07-01 15:53:17,824 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== AND:  TC_04_LoginWithPaswordIncorrect============== 
+2019-07-01 15:53:20,000 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:53:28,992 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== START:  TC_05_LoginWithUserAndPassValid============== 
+2019-07-01 15:53:28,992 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 01: Input data to UserID
+2019-07-01 15:53:29,172 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 02: Input data to Password
+2019-07-01 15:53:29,280 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 03: Click to Submit button
+2019-07-01 15:53:30,787 INFO  com.bankguru.login.Login_01_ValidateLoginForm - Step 04: verify Home Page
+2019-07-01 15:53:32,184 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ===PASSED===
+2019-07-01 15:53:32,184 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ============== AND:  TC_05_LoginWithUserAndPassValid============== 
+2019-07-01 15:53:32,909 INFO  com.bankguru.login.Login_01_ValidateLoginForm - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 15:53:32,911 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: LOGIN ============== 
+2019-07-01 15:53:41,618 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Input data to UserID
+2019-07-01 15:53:41,866 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Input data to Password
+2019-07-01 15:53:41,963 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 03: Click to Submit button
+2019-07-01 15:53:43,275 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 04: verify Home Page
+2019-07-01 15:53:44,968 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:44,969 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: LOGIN ============== 
+2019-07-01 15:53:44,969 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step: Click New Customer
+2019-07-01 15:53:47,361 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_01_NameCannotEmpty ============== 
+2019-07-01 15:53:47,361 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Name
+2019-07-01 15:53:47,502 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:53:47,712 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 03: Verify Name
+2019-07-01 15:53:48,318 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Customer name must not be blank
+2019-07-01 15:53:48,319 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Customer name must not be blank
+2019-07-01 15:53:48,319 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:48,320 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:48,320 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_01_NameCannotEmpty ============== 
+2019-07-01 15:53:48,323 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_02_NameCannotNumeric ============== 
+2019-07-01 15:53:48,323 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Numeric value in Name
+2019-07-01 15:53:49,040 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Numbers are not allowed
+2019-07-01 15:53:49,040 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Numbers are not allowed
+2019-07-01 15:53:49,040 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:49,041 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:49,041 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_02_NameCannotNumeric ============== 
+2019-07-01 15:53:49,043 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_03_NameCannotSpecialCharacter ============== 
+2019-07-01 15:53:49,043 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in Name
+2019-07-01 15:53:49,745 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:53:49,745 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:53:49,745 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:49,746 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:49,746 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_03_NameCannotSpecialCharacter ============== 
+2019-07-01 15:53:49,748 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_04_NameCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:49,749 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Name
+2019-07-01 15:53:50,416 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:53:50,416 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:53:50,416 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:50,416 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:50,416 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_04_NameCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:50,418 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_05_AddressCannotEmpty ============== 
+2019-07-01 15:53:50,418 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Address
+2019-07-01 15:53:50,577 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:53:51,280 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Address Field must not be blank
+2019-07-01 15:53:51,280 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Address Field must not be blank
+2019-07-01 15:53:51,281 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:51,281 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:51,281 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_05_AddressCannotEmpty ============== 
+2019-07-01 15:53:51,283 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_06_AddressCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:51,283 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Address
+2019-07-01 15:53:52,005 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:53:52,006 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:53:52,006 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:52,006 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:52,006 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_06_AddressCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:52,007 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_07_AddressCannotSpecialCharacter ============== 
+2019-07-01 15:53:52,008 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in Address
+2019-07-01 15:53:52,746 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:53:52,747 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:53:52,747 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:52,747 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:52,748 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_07_AddressCannotSpecialCharacter ============== 
+2019-07-01 15:53:52,750 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_08_CityCannotEmpty ============== 
+2019-07-01 15:53:52,750 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value City
+2019-07-01 15:53:52,847 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:53:53,597 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=City Field must not be blank
+2019-07-01 15:53:53,598 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=City Field must not be blank
+2019-07-01 15:53:53,598 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:53,598 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:53,598 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_08_CityCannotEmpty ============== 
+2019-07-01 15:53:53,600 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_09_CityCannotNumeric ============== 
+2019-07-01 15:53:53,600 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Numeric value in City
+2019-07-01 15:53:54,294 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Numbers are not allowed
+2019-07-01 15:53:54,295 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Numbers are not allowed
+2019-07-01 15:53:54,295 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:54,295 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:54,296 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_09_CityCannotNumeric ============== 
+2019-07-01 15:53:54,297 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_10_CityCannotSpecialCharacter ============== 
+2019-07-01 15:53:54,298 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in City
+2019-07-01 15:53:54,994 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:53:54,995 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:53:54,995 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:54,995 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:54,995 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_10_CityCannotSpecialCharacter ============== 
+2019-07-01 15:53:54,998 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_11_CityCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:54,999 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in City
+2019-07-01 15:53:55,694 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:53:55,694 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:53:55,694 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:55,695 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:55,695 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_11_CityCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:55,696 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_12_StateCannotEmpty ============== 
+2019-07-01 15:53:55,696 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value State
+2019-07-01 15:53:55,797 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:53:56,555 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=State must not be blank
+2019-07-01 15:53:56,555 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=State must not be blank
+2019-07-01 15:53:56,555 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:56,555 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:56,556 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_12_StateCannotEmpty ============== 
+2019-07-01 15:53:56,556 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_13_StateCannotNumeric ============== 
+2019-07-01 15:53:56,557 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Numeric value in State
+2019-07-01 15:53:57,315 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Numbers are not allowed
+2019-07-01 15:53:57,315 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Numbers are not allowed
+2019-07-01 15:53:57,315 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:57,315 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:57,315 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_13_StateCannotNumeric ============== 
+2019-07-01 15:53:57,316 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_14_StateCannotSpecialCharacter ============== 
+2019-07-01 15:53:57,316 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in State
+2019-07-01 15:53:58,026 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:53:58,026 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:53:58,026 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:58,027 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:58,027 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_14_StateCannotSpecialCharacter ============== 
+2019-07-01 15:53:58,028 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_15_StateCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:58,028 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in State
+2019-07-01 15:53:58,719 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:53:58,719 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:53:58,719 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:58,719 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:58,720 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_15_StateCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:53:58,721 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_16_PinIsNumeric ============== 
+2019-07-01 15:53:58,722 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Pin
+2019-07-01 15:53:59,431 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Characters are not allowed
+2019-07-01 15:53:59,431 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Characters are not allowed
+2019-07-01 15:53:59,431 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:53:59,432 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:53:59,432 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_16_PinIsNumeric ============== 
+2019-07-01 15:53:59,434 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_17_PinCannotEmpty ============== 
+2019-07-01 15:53:59,434 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Pin
+2019-07-01 15:53:59,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Pin Press Tab
+2019-07-01 15:54:30,386 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_18_PinHave6Digits ============== 
+2019-07-01 15:54:30,387 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Numeric value in Pin
+2019-07-01 15:54:31,103 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=PIN Code must have 6 Digits
+2019-07-01 15:54:31,103 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=PIN Code must have 6 Digits
+2019-07-01 15:54:31,103 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:31,103 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:31,103 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_18_PinHave6Digits ============== 
+2019-07-01 15:54:31,104 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_19_PinCannotSpecialCharacter ============== 
+2019-07-01 15:54:31,105 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in Pin
+2019-07-01 15:54:31,776 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:54:31,777 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:54:31,777 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:31,777 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:31,777 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_19_PinCannotSpecialCharacter ============== 
+2019-07-01 15:54:31,778 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_20_PinCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:54:31,779 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Pin
+2019-07-01 15:54:32,448 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:54:32,448 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:54:32,448 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:32,448 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:32,449 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_20_PinCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:54:32,450 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_21_PinCannotHaveSpace ============== 
+2019-07-01 15:54:32,450 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Pin
+2019-07-01 15:54:33,116 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Characters are not allowed
+2019-07-01 15:54:33,116 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Characters are not allowed
+2019-07-01 15:54:33,116 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:33,116 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:33,116 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_21_PinCannotHaveSpace ============== 
+2019-07-01 15:54:33,118 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_22_TelephoneCannotEmpty ============== 
+2019-07-01 15:54:33,118 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Telephone
+2019-07-01 15:54:33,182 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:54:33,897 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Mobile no must not be blank
+2019-07-01 15:54:33,897 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Mobile no must not be blank
+2019-07-01 15:54:33,897 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:33,898 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:33,898 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_22_TelephoneCannotEmpty ============== 
+2019-07-01 15:54:33,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_23_TelephoneCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:54:33,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Telephone
+2019-07-01 15:54:34,567 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=First character can not have space
+2019-07-01 15:54:34,568 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=First character can not have space
+2019-07-01 15:54:34,568 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:34,568 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:34,568 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_23_TelephoneCannotHaveFirstCharacterBlankSpace ============== 
+2019-07-01 15:54:34,569 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_24_TelephoneCannotHaveSpace ============== 
+2019-07-01 15:54:34,569 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot have first Character Blank Space value in Telephone
+2019-07-01 15:54:35,229 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Characters are not allowed
+2019-07-01 15:54:35,230 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Characters are not allowed
+2019-07-01 15:54:35,230 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:35,230 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:35,230 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_24_TelephoneCannotHaveSpace ============== 
+2019-07-01 15:54:35,231 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_25_TelephoneCannotSpecialCharacter ============== 
+2019-07-01 15:54:35,231 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Cannot Special Character value in Telephone
+2019-07-01 15:54:35,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Special characters are not allowed
+2019-07-01 15:54:35,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Special characters are not allowed
+2019-07-01 15:54:35,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:35,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:35,899 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_25_TelephoneCannotSpecialCharacter ============== 
+2019-07-01 15:54:35,900 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_26_EmailCannotEmpty ============== 
+2019-07-01 15:54:35,901 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Do not enter a value Telephone
+2019-07-01 15:54:35,976 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Press Tab
+2019-07-01 15:54:36,739 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID must not be blank
+2019-07-01 15:54:36,739 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID must not be blank
+2019-07-01 15:54:36,740 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:36,740 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:36,740 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_26_EmailCannotEmpty ============== 
+2019-07-01 15:54:36,741 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_27_EmailMustCorrectFormat ============== 
+2019-07-01 15:54:36,741 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Email must be in correct format
+2019-07-01 15:54:37,491 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID is not valid
+2019-07-01 15:54:37,491 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID is not valid
+2019-07-01 15:54:37,491 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:37,491 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:38,143 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID is not valid
+2019-07-01 15:54:38,143 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID is not valid
+2019-07-01 15:54:38,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:38,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:38,811 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID is not valid
+2019-07-01 15:54:38,811 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID is not valid
+2019-07-01 15:54:38,811 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:38,811 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:39,507 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID is not valid
+2019-07-01 15:54:39,507 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID is not valid
+2019-07-01 15:54:39,507 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:39,507 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:40,388 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Email-ID is not valid
+2019-07-01 15:54:40,388 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Email-ID is not valid
+2019-07-01 15:54:40,388 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:54:40,388 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:54:40,388 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_27_EmailMustCorrectFormat ============== 
+2019-07-01 15:54:40,390 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_30_VerifyLabels ============== 
+2019-07-01 15:54:40,390 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Verify Faile Label Customer Name
+2019-07-01 15:55:11,723 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Customer Name
+2019-07-01 15:55:11,723 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Customer Name
+2019-07-01 15:55:11,723 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:55:11,723 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:55:11,723 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Verify Faile Label Gender
+2019-07-01 15:55:42,936 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Gender
+2019-07-01 15:55:42,936 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Gender
+2019-07-01 15:55:42,936 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:55:42,936 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:55:42,937 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 03: Verify Faile Label Date of Birth
+2019-07-01 15:56:14,143 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Date of Birth
+2019-07-01 15:56:14,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Date of Birth
+2019-07-01 15:56:14,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:56:14,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:56:14,144 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 04: Verify Faile Label Address
+2019-07-01 15:56:45,327 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Address
+2019-07-01 15:56:45,327 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Address
+2019-07-01 15:56:45,327 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:56:45,327 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:56:45,327 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 05: Verify Faile Label City
+2019-07-01 15:57:16,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=City
+2019-07-01 15:57:16,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=City
+2019-07-01 15:57:16,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:57:16,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:57:16,514 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 06: Verify Faile Label State
+2019-07-01 15:57:47,717 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=State
+2019-07-01 15:57:47,717 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=State
+2019-07-01 15:57:47,717 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:57:47,717 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:57:47,717 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 07: Verify Faile Label PIN
+2019-07-01 15:58:18,914 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=PIN
+2019-07-01 15:58:18,914 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=PIN
+2019-07-01 15:58:18,914 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:58:18,914 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:58:18,914 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 08: Verify Faile Label Mobile Number
+2019-07-01 15:58:50,268 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Mobile Number
+2019-07-01 15:58:50,269 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Mobile Number
+2019-07-01 15:58:50,269 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:58:50,269 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:58:50,269 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 09: Verify Faile Label E-mail
+2019-07-01 15:59:21,590 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=E-mail
+2019-07-01 15:59:21,590 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=E-mail
+2019-07-01 15:59:21,590 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:59:21,590 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:59:21,590 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 10: Verify Faile Label Password
+2019-07-01 15:59:52,785 INFO  com.bankguru.customer.Customer_01_NewCustomer - Actual=Password
+2019-07-01 15:59:52,785 INFO  com.bankguru.customer.Customer_01_NewCustomer - Expected=Password
+2019-07-01 15:59:52,785 INFO  com.bankguru.customer.Customer_01_NewCustomer - Compare value=true
+2019-07-01 15:59:52,785 INFO  com.bankguru.customer.Customer_01_NewCustomer - ===PASSED===
+2019-07-01 15:59:52,786 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== AND: TC_30_VerifyLabels ============== 
+2019-07-01 15:59:52,786 INFO  com.bankguru.customer.Customer_01_NewCustomer - ============== START: TC_31_ValidAllField ============== 
+2019-07-01 15:59:52,786 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid Customer Name
+2019-07-01 15:59:52,913 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 02: Enter valid  Date of birth
+2019-07-01 15:59:52,995 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid Address
+2019-07-01 15:59:53,140 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid city
+2019-07-01 15:59:53,263 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid State
+2019-07-01 15:59:53,336 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid PIN
+2019-07-01 15:59:53,413 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid Mobile
+2019-07-01 15:59:53,494 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid Email
+2019-07-01 15:59:53,625 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Enter valid Password
+2019-07-01 15:59:53,712 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Click button submit
+2019-07-01 16:00:36,859 INFO  com.bankguru.customer.Customer_01_NewCustomer - Step 01: Verify successfully new Customer
+2019-07-01 16:01:08,061 INFO  com.bankguru.customer.Customer_01_NewCustomer - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 16:01:08,062 INFO  com.bankguru.customer.Customer_02_EditCustomer - ============== START: LOGIN ============== 
+2019-07-01 16:01:56,050 INFO  com.bankguru.customer.Customer_02_EditCustomer - Step 01: Input data to UserID
+2019-07-01 16:02:26,949 INFO  com.bankguru.customer.Customer_02_EditCustomer - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 16:02:26,949 INFO  com.bankguru.customer.Customer_03_DeleteCustomer - ============== START: LOGIN ============== 
+2019-07-01 16:02:53,769 INFO  com.bankguru.customer.Customer_03_DeleteCustomer - Step 01: Input data to UserID
+2019-07-01 16:03:24,764 INFO  com.bankguru.customer.Customer_03_DeleteCustomer - ---------------- QUIT BROWSER SUCCESS ---------------- 
+2019-07-01 16:03:24,765 INFO  com.bankguru.account.Account_01_NewAccount - ============== START: LOGIN ============== 
